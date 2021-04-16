@@ -6,7 +6,7 @@
 /*   By: vida-sil <vida-sil@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/15 15:40:58 by vida-sil          #+#    #+#             */
-/*   Updated: 2021/04/16 17:50:41 by vida-sil         ###   ########.fr       */
+/*   Updated: 2021/04/16 21:39:20 by vida-sil         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ int	ft_strcmp(char *s1, char *s2)
 	}
 	if (s2[i] != '\0')
 	{
-		return ((unsigned char)s1[1] - (unsigned char)s2[i]);
+		return ((unsigned char)s1[i] - (unsigned char)s2[i]);
 	}
 	return (0);
 }
